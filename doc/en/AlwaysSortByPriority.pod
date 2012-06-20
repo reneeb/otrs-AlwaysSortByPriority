@@ -1,0 +1,8 @@
+=head1 AlwaysSortByPriority
+
+=head2 DESCRIPTION
+
+The SysConfig options "SortBy" and "Order" for the AgentTicketQueue view says that the priority is the primary sort criteria in the view. In fact it is the primary sort criteria only when you start with the view. As soon as you click on a "page number" the priority is not a sort criteria anymore.
+
+This is fixed in this package! It always uses the priority as the primary sort criteria.
+
