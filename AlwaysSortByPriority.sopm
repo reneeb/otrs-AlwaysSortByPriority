@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.0">
+    <Name>AlwaysSortByPriority</Name>
+    <Version>0.0.1</Version>
+    <Framework>3.1.x</Framework>
+    <Vendor>Renee Baecker, Perl-Services.de</Vendor>
+    <URL>http://perl-services.de/</URL>
+    <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
+    <Description Lang="en">Always use priority as the first sorting criteria in the queue view.</Description>
+    <Description Lang="de">Benutze immer die Priorität als erstes Sortierkriterium in der Queue-Ansicht.</Description>
+    <Filelist>
+        <File Permission="644" Location="Custom/Kernel/Modules/AgentTicketQueue.pm"/>
+    </Filelist>
+</otrs_package>
